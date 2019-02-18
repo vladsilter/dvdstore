@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+.btnHP {margin-right:5px; margin-top:5px;}
+.dim1 {size:75%; margin-rigth:35%; margin-left:25%}
+.dim2 {margin-right:30%; margin-left:40%;margin-top:40px;}
+body {background-color: blue;}
+h1 {color: yellow; font-family: 'Roboto', sans-serif; font-size: 400%; text-align: center;}
+h2 {color: yellow; font-family: 'Roboto', sans-serif; font-size: 200%; text-align: center;}
+a {color: yellow; font-family: 'Roboto', sans-serif;}
+.a1 {color: yellow; font-family: 'Roboto', sans-serif; margin-right:80%; margin-top:2%;}
+
+tr, td {color: yellow; font-family: 'Roboto', sans-serif;}
+.table1 {background-color:blue;border-color:yellow; margin:auto;}
+
+.a2 {color: yellow; font-family: 'Roboto', sans-serif; margin-left:5%; margin-top:2%;}
+.table2 {background-color:blue;border-color:yellow; margin-left:10%; border:0;}
+.btnR {margin-left:30%;}
+.dim3 {background-color: yellow; font-family: 'Roboto', sans-serif; margin-left:60%; margin-top:3%; margin-right:5%;}
+.tot {margin-left:60%; margin-right:5%;margin-top:7%; color:yellow; font-family: 'Roboto', sans-serif;}
+
+.form1 {background-color: yellow; font-family: 'Roboto', sans-serif; margin-right:30%; margin-left:30%; margin-top:2%;}
+.form2 {background-color: yellow; font-family: 'Roboto', sans-serif; margin-right:30%; margin-left:30%; margin-top:5%;}
+.btnA {margin-left:60%;}
+
+
+
+
+
