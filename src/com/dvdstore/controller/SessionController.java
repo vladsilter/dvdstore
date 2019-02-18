@@ -46,11 +46,6 @@ public class SessionController extends HttpServlet {
 			}
 		}
 		
-		
-		
-		Integer idFilm = Integer.parseInt(request.getParameter("idFilm"));
-		
-		
 		Cart carrello = (Cart) session.getAttribute("carrello");
 		CartImpl cartImpl = new CartImpl();
 		FilmImpl filmImpl = new FilmImpl();
@@ -60,7 +55,12 @@ public class SessionController extends HttpServlet {
 		//out.println("carrello: "+carrello + "--- film: "+filmImpl.getById(idFilm));
 		if(tipoRichiesta.equals("buy")) {
 			cartImpl.confirm(carrello);
+			response.sendRedirect("views/profilo.jsp");
+			return;
 		}
+		
+		Integer idFilm = Integer.parseInt(request.getParameter("idFilm"));
+		
 		
 		if(tipoRichiesta.equals("add")) {
 			cartImpl.addToCart(carrello,filmImpl.getById(idFilm));
